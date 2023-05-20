@@ -23,8 +23,6 @@ function setPosition(position) {
     if (CONFIG.trackLocation) {
       console.error("Geolocation not available");
     }
-    console.log('lat and long');
-    console.log(CONFIG.defaultLatitude, CONFIG.defaultLongitude);
     getWeather(CONFIG.defaultLatitude, CONFIG.defaultLongitude);
     return;
   }
