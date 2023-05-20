@@ -6,22 +6,22 @@
 
 /* V A R I A B L E S */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"); /* Font Import */
 
 :root {
   /* Font Size */
   --fg-primary: 12vh; /* Time and Greetings */
-  --fg-secondary: 3vh; /* Greetings and Weather widger */
+  --fg-secondary: 3vh; /* Greetings and Weather widget */
   --fg-date: 8vh; /* Date */
   --fg-list: 2vh; /* Links List */
   --icon: 3vh; /* Icon Size */
 
   /* Fonts Color */
   --fg: #3a3a3a; /* Foreground color */
-  --sfg: #494949; /* Sceondary Foreground color */
+  --sfg: #494949; /* Secondary Foreground color */
 
   /* Light Colors  */
-  --accent: #C9FFE5; /* Hover color */
+  --accent: #c9ffe5; /* Hover color */
   --background: #f5f5f5; /* Background color */
   --cards: #e4e6e6; /* Cards color */
 
@@ -35,7 +35,7 @@
 
 .darktheme {
   /* Dark Colors  */
-  --accent: #C9FFE5; /* Hover color */
+  --accent: #c9ffe5; /* Hover color */
   --background: #19171a; /* Background color */
   --cards: #201e21; /* Cards color */
 
@@ -56,7 +56,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   transition: 0.2s ease-in-out;
 }
 
