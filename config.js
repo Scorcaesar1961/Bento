@@ -63,7 +63,7 @@ const CONFIG = {
       id: "2",
       name: "Mail",
       icon: "send",
-      link: "https://mail.google.com/mail/u/0/#inbox",
+      link: "https://mail.proton.me/u/0/inbox",
     },
     {
       id: "3",
